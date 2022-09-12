@@ -1,0 +1,16 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+button {
+  background-color: antiquewhite;
+}
+img {
+  width: 350px;
+    height: 350px;
+}
+.comida img{
+width: 150px;
+  height: 150px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
