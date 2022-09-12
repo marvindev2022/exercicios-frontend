@@ -1,16 +1,50 @@
 * {
+  box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
+}
+body {
+  
+  padding-top: -50px;
+  background-color: blanchedalmond;
+}
+p {
+  font-size: 20px;
+  
 }
 button {
   background-color: antiquewhite;
 }
 img {
+  border-radius: 50%;
   width: 350px;
     height: 350px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .comida img{
 width: 150px;
   height: 150px;
   border-radius: 4px;
   margin-right: 8px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  
+}
+.dados {
+  
+  display: inline-block;
+  margin-left: 50px;
+  display: inline-block;
+}
+.container-dados {
+  
+  display: flex;
+  align-items: center;
+
+}
+div {
+  display: inline-box;
+  background-color: aliceblue;
 }
