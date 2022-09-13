@@ -1,13 +1,14 @@
 * {
+  /* border: 2px solid red; */
   flex-wrap: wrap;
-
+  align-items: center;
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
 }
 
 body {
 
-  background-color: antiquewhite;
+  background-color: rgb(209, 229, 237);
 }
 
 h2 {
@@ -40,7 +41,7 @@ img {
   border-radius: 50%;
   width: 350px;
   height: 350px;
-  border: 3px solid antiquewhite;
+  border: 3px solid rgb(209, 229, 237);
 }
 
 .comida img {
@@ -50,31 +51,28 @@ img {
   border-radius: 30%;
   margin-right: 50px;
   margin-left: 50px;
-
 }
 
 .logo {
   width: 30px;
   height: 30px;
+  align-items: center;
 }
 
 .dados {
-
+  align-items: center;
   display: inline-block;
-  margin-left: 150px;
-
-
 }
 
 .container-dados {
-  
+
   text-align: center;
-  
+
 }
 
 .container-dessert,
 .container-food {
-  background-color: antiquewhite;
+  background-color: rgb(209, 229, 237);
 
 }
 
