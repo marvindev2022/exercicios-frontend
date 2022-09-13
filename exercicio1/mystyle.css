@@ -1,50 +1,87 @@
 * {
+  flex-wrap: wrap;
+
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
+
 body {
-  
-  padding-top: -50px;
-  background-color: blanchedalmond;
-}
-p {
-  font-size: 20px;
-  
-}
-button {
+
   background-color: antiquewhite;
 }
-img {
-  border-radius: 50%;
-  width: 350px;
-    height: 350px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-.comida img{
-width: 150px;
-  height: 150px;
-  border-radius: 4px;
-  margin-right: 8px;
-}
-.logo {
-  width: 30px;
-  height: 30px;
-  
-}
-.dados {
-  
-  display: inline-block;
-  margin-left: 50px;
-  display: inline-block;
-}
-.container-dados {
-  
-  display: flex;
+
+h2 {
+  margin-left: 130px;
+  font-size: 25px;
   align-items: center;
 
 }
+
+
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
 div {
-  display: inline-box;
   background-color: aliceblue;
+}
+
+main {
+
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+img {
+  display: inline-flex;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  border: 3px solid antiquewhite;
+}
+
+.comida img {
+  display: inline-flex;
+  width: 250px;
+  height: 250px;
+  border-radius: 30%;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.dados {
+
+  display: inline-block;
+  margin-left: 150px;
+
+
+}
+
+.container-dados {
+  
+  text-align: center;
+  
+}
+
+.container-dessert,
+.container-food {
+  background-color: antiquewhite;
+
+}
+
+footer {
+  background-color: #866fc5;
+  color: white;
+  padding: 50px;
+  text-align: center;
+
 }
